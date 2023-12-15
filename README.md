@@ -3,7 +3,7 @@
 
   &#xa0;
 
-  <a href="#">News Homepage</a>
+  <a href="https://r00kiead.github.io/news/">News Homepage</a>
 </div>
 
 <p align="center">
@@ -34,8 +34,8 @@ A design template for news webpage. Gives a basic idea of news landing page. Des
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Responsive;\
-:heavy_check_mark: Dynamic;\
+:heavy_check_mark: Responsive;
+:heavy_check_mark: Dynamic;
 
 ## :rocket: Technologies ##
 
@@ -43,12 +43,12 @@ The following tools were used in this project:
 
 - [HTML5](https://www.w3schools.com/html/default.asp)
 - [CSS3](https://www.w3schools.com/css/default.asp)
-- [Bootstrap](https://www.w3schools.com/bootstrap/bootstrap_ver.asp)
+- [Bootstrapv5.3](https://www.w3schools.com/bootstrap/bootstrap_ver.asp)
 - [VSCode](https://code.visualstudio.com/)
 
 ## :white_check_mark: Requirements ##
 
-Have your browser ready with scripts enabled. Minimum Resolution Width Supported: 375px, Maximum Resolution Width Supported: 1920px
+Have your browser ready with scripts enabled. Supprted Browsers: Chrome, Edge, Safari, Brave, FireFox, Opera. Minimum Resolution Width Supported: 375px, Maximum Resolution Width Supported: 1920px
 
 ## :memo: License ##
 
