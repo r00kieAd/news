@@ -48,12 +48,11 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements ##
 
-Have your browser ready with scripts enabled. 
 :heavy_check_mark: Supports Brave, Chrome, Edge, Firefox, Opera, Safari;/
 :heavy_check_mark: Min optimal resolution width: 375px, Max optimal resolution width 1920px;/
 :heavy_check_mark: Mobiles;/
 :heavy_check_mark: Tablets;/
-:heavy_check_mark: Laptop/Desktop;
+:heavy_check_mark: Laptop and Desktop;/
 
 ## :memo: License ##
 
