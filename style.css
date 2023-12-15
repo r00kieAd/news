@@ -1,0 +1,376 @@
+:root {
+    --orange: hsl(35, 77%, 62%);
+    --red: hsl(5, 85%, 63%);
+    --white: hsl(36, 100%, 99%);
+    --blue: hsl(233, 8%, 79%);
+    --darkBlue: hsl(236, 13%, 42%);
+    --vDarkBlue: hsl(240, 100%, 5%);
+}
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    background-color: var(--white) !important;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    padding: 1rem 14vw;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.nav-bar {
+    position: relative;
+    width: 100%;
+    background-color: var(--white);
+    margin-bottom: 2% !important;
+}
+
+.nav-menu {
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offcan-nav {
+    display: none;
+}
+
+.off-items {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: var(--darkBlue);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400 !important;
+    text-shadow: none !important;
+}
+
+li a:hover {
+    color: var(--red);
+}
+
+.top-contents {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-A {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem 1rem 0;
+    width: 68%;
+    height: fit-content;
+}
+
+.mobileImg {
+    display: none;
+}
+
+.content-A img {
+    width: 100%;
+    height: auto;
+}
+
+.subContent-A {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.sc-a {
+    position: relative;
+    width: 45rem;
+}
+
+.sc-a h1 {
+    position: relative;
+    font-weight: bolder !important;
+    letter-spacing: 0.1px;
+}
+
+.sc-b {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem;
+    width: 70rem;
+    font-weight: 400;
+}
+
+.sc-b span {
+    position: relative;
+    width: 100%;
+}
+
+.cbtn {
+    position: relative !important;
+    width: 12rem !important;
+    height: 3rem;
+    letter-spacing: 1px !important;
+    margin-bottom: 16px !important;
+    background-color: var(--red) !important;
+    border-color: var(--red) !important;
+    color: var(--white) !important;
+    border-radius: 0 !important;
+}
+
+.cbtn:hover{
+    background-color: var(--vDarkBlue) !important;
+    border-color: var(--vDarkBlue) !important;
+}
+
+.content-B {
+    position: relative;
+    margin: 0 1% 1% 0;
+    padding: 1%;
+    width: 100%;
+    background-color: var(--vDarkBlue);
+}
+
+hr {
+    border-top: 1px solid white !important;
+    margin: 2vh 0 !important;
+    align-self: center !;
+}
+
+.headlines {
+    margin: 0 1vw;
+}
+
+.headlines h1 {
+    font-size: 50px;
+    font-weight: 900 !important;
+    color: var(--orange);
+}
+
+.headline h6 {
+    margin: 1rem 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.headline h6:hover {
+    color: var(--orange);
+}
+
+.headline p {
+    color: var(--blue);
+    font-weight: 300 !important;
+}
+
+.bottom-contents {
+    position: relative !important;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    /* border: 1px solid black; */
+}
+
+.abc {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.bc {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: row !important;
+    margin: 5% 0 !important;
+    /* height: 10rem !important; */
+}
+
+.bottom-contents img {
+    position: relative !important;
+    width: 8rem !important;
+    height: 90% !important;
+}
+
+.bc-text {
+    position: relative !important;
+    margin-left: 2.5% !important;
+    display: flex;
+    flex-direction: column;
+    width: 25rem !important;
+    text-wrap:stable;
+    overflow: hidden;
+    /* height: 10rem !important; */
+    /* border: 1px solid black; */
+}
+
+.bc-text span {
+    font-size: 40px;
+    font-weight: 900 !important;
+    color: var(--blue);
+}
+
+.bc-text h6 {
+    position: relative !important;
+    font-weight: 900 !important;
+    font-size: 16px;
+    color: var(--vDarkBlue);
+}
+
+.bc-text h6:hover {
+    color: var(--red);
+}
+
+.bc-text p {
+    position: relative !important;
+    color: var(--darkBlue);
+    font-weight: 100 !important;
+    font-size: small;
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .sc-a h1 {
+        position: relative;
+        font-size: 3.5vw;
+        line-height: 4rem;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+
+    .main {
+        position: relative;
+        width: 100%;
+        padding: 1rem 10vw;
+    }
+
+    .content-A {
+        width: 60%;
+        height: fit-content;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .items {
+        display: none;
+    }
+
+    .offcan-nav {
+        display: block;
+        padding: 10px;
+    }
+
+    .off-items {
+        display: block;
+    }
+
+    li {
+        float: none;
+    }
+
+    li a {
+        text-align: end;
+    }
+
+    .offcanvas {
+        width: fit-content !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main {
+        padding: 1rem;
+    }
+    
+    .offcan-nav {
+        padding-right: 0;
+    }
+    
+    .top-contents {
+        position: relative;
+        display: block;
+    }
+
+    .content-A {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+
+    .sc-a h1 {
+        font-size: 6vw;
+    }
+
+    
+    /* .bc-text {
+        height: auto !important;
+    } */
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .subContent-A {
+        position: relative;
+        display: block;
+        width: inherit;
+    }
+
+    .deskImg {
+        display: none;
+    }
+
+    .mobileImg {
+        display: block;
+    }
+
+    .sc-a {
+        position: relative;
+        width: 70vw;
+    }
+    
+    .sc-a h1 {
+        font-size: 12vw;
+    }
+    
+    .sc-b {
+        margin-left: 0;
+        width: 70vw;
+    }
+    
+    .sc-b span {
+        position: relative;
+        width: 100%;
+    }
+    
+    .sc-b button {
+        position: relative;
+        width: 9rem;
+        letter-spacing: 1px;
+        margin: 10px 0;
+    }
+}
